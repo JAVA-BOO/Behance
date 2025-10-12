@@ -1,0 +1,73 @@
+* {
+  font-family: "Acumin Pro", sans-serif;
+}
+.searchnav::placeholder {
+  color: #970520;
+  opacity: 1;
+}
+
+.hero {
+  background-image: url(./images/behance\ banner\ big.webp);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.shadow-blue {
+  box-shadow: 0 4px 8px rgba(51, 51, 243, 0.2);
+}
+
+.shadow-green {
+  box-shadow: 0 4px 8px rgba(7, 249, 7, 0.2);
+}
+.shadow-pink {
+  box-shadow: 0 4px 8px rgba(250, 2, 192, 0.2);
+}
+.upgrade-cards .card {
+  transition: transform 0.3s ease;
+}
+
+.upgrade-cards .card:hover {
+  transform: translateY(-8px);
+}
+
+.reach {
+  background-color: #f3f7fe;
+}
+.earn {
+  background-color: #f4f9f3;
+}
+.personalised {
+  background-color: #fbf4fb;
+}
+.shadow-black {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.carousel-scroll {
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+.trials {
+  background-color: #fafbff;
+}
+.footer-cards a {
+  text-decoration: none;
+  color: white;
+}
+.footer-cards a:hover {
+  text-decoration: underline;
+}
+
+.lice a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.lice a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .hero {
+    height: 100vh;
+  }
+}
