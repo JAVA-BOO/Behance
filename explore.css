@@ -5,7 +5,9 @@
   color: #970520;
   opacity: 1;
 }
-
+.dropp:hover .droppMenu {
+  display: block;
+}
 .hero {
   height: 80vh;
   background-color: rgb(245, 249, 254);

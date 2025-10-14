@@ -5,7 +5,9 @@
   color: #970520;
   opacity: 1;
 }
-
+.dropp:hover .droppMenu {
+  display: block;
+}
 .hero {
   background-image: url(./images/behance\ banner\ big.webp);
   background-size: cover;
