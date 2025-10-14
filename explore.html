@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Behance</title>
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-behance-94.png"
+      type="image/x-icon"
+    />
+
+    <!-- boostrap link starts here -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- boostrap stops here -->
+    <!-- boostrapicons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- normalcss link -->
+    <link rel="stylesheet" href="explore.css" />
+    <!-- CDN FONTS STARTS HERE -->
+    <link href="https://fonts.cdnfonts.com/css/acumin-pro" rel="stylesheet" />
+    <!-- CDN FONTS STOPS HERE -->
+  </head>
+
+  <body>
+    <!-- NAV STARTS HERE -->
+    <nav
+      class="z-3 navbar navbar-expand-lg bg-light-subtle border-0 fixed-top w-100"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="d-block d-md-none"
+            src="./images/asset 43.svg"
+            alt=""
+            width="30px"
+          />
+          <p class="m-0 text-black fw-bold text-center d-none d-md-block">
+            B&#275;hance
+          </p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active text-black" aria-current="page" href="#"
+                >Explore</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">Jobs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-black"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item border-start border-secondary"></li>
+            <li class="nav-item dropdown dropp">
+              <a
+                class="nav-link dropdown-toggle text-black"
+                href="./hire.html"
+                role="button"
+                aria-expanded="false"
+              >
+                Hire
+              </a>
+              <ul class="dropdown-menu droppMenu">
+                <li>
+                  <a class="dropdown-item" href="./hire.html"
+                    ><i class="bi bi-list-columns-reverse pe-2"></i> Hiring
+                    Dashboard</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form
+            class="d-flex w-50 me-md-2 justify-content-end gap-2"
+            role="search"
+          >
+            <div
+              class="d-lg-flex justify-content-center align-items-center mx-2 rounded-circle d-none d-xl-none"
+              style="
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                cursor: pointer;
+              "
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="black"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 
+                  0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                />
+              </svg>
+            </div>
+
+            <a
+              class="btn rounded-5 fw-bold px-0 w-25 btn-sm"
+              style="
+                font-size: 13px;
+                background: linear-gradient(to right, #5050f6, #0202c4);
+                color: white;
+              "
+              href="./index.html"
+              >Start Free Trial
+            </a>
+            <button
+              type="button"
+              class="btn btn-light bg-light border-primary-subtle text-primary rounded-5 flex-shrink-0 btn-sm px-4"
+            >
+              Sign in
+            </button>
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="cursor: pointer"
+            >
+              <img
+                src="./images/adobeblack-removebg-preview.png"
+                alt=""
+                width="70px"
+                height="30px"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- hero section -->
+
+    <section class="hero d-none d-lg-block overflow-hidden">
+      <div
+        class="container-fluid h-100 d-flex justify-content-center align-items-center position-relative"
+      >
+        <div class="hero-bg d-flex justify-content-between align-items-center">
+          <div class="left" style="width: 25%">
+            <div class="d-flex flex-wrap-reverse gap-4">
+              <img src="./images/1.webp" alt="" width="144px" /><img
+                src="./images/2.webp"
+                width="108px"
+                alt=""
+              /><img src="./images/3.webp" alt="" width="108px" /><img
+                src="./images/4.webp"
+                width="180px"
+                alt=""
+              /><img src="./images/5.webp" alt="" width="180px" /><img
+                src="./images/6.webp"
+                alt=""
+                width="144px"
+              />
+            </div>
+          </div>
+          <div class="right" style="width: 30%">
+            <div class="d-flex flex-wrap gap-4">
+              <img src="./images/1.webp" alt="" width="144px" /><img
+                src="./images/2.webp"
+                width="108px"
+                alt=""
+              /><img src="./images/3.webp" alt="" width="108px" /><img
+                src="./images/4.webp"
+                width="180px"
+                alt=""
+              /><img src="./images/5.webp" alt="" width="180px" /><img
+                src="./images/6.webp"
+                alt=""
+                width="144px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="overlay position-absolute top-0 start-0 z-1 w-100">
+          <div
+            class="overlay-contents d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 class="text-center display-1 fw-bold line-h">
+              The World’s <br /><b class="text-primary">Best Creators</b> <br />
+              Are On Behance
+            </h1>
+            <p class="fs-4 text-center lh-sm">
+              A comprehensive platform to help hirers and creators <br />
+              navigate the creative world from discovering inspiration, <br />
+              to connecting with one another
+            </p>
+
+            <div>
+              <button type="button" class="btn btn-primary rounded-5 px-4">
+                Hire a Freelancer
+              </button>
+              <button
+                type="button"
+                class="btn btn-light border-primary-subtle rounded-5 px-3"
+              >
+                Try Behance Pro
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second navbar -->
+    <nav
+      class="navbar bg-light-subtle position-sticky pt-2 z-3"
+      style="top: 48px !important"
+    >
+      <div class="container-fluid d-flex flex-row flex-nowrap gap-3">
+        <button
+          type="button"
+          class="btn btn-outline-secondary bggrey rounded-5 flex-shrink-0"
+        >
+          <i class="bi bi-toggles2"></i> Filter
+        </button>
+
+        <div
+          class="input-group bggrey rounded-5 py-1 px-3 border-secondary-subtle border-1 border"
+        >
+          <div
+            class="input-group-text bg-transparent border-0"
+            id="btnGroupAddon"
+          >
+            <i class="bi bi-search"></i>
+          </div>
+          <input
+            type="text"
+            class="form-control bg-transparent border-0"
+            placeholder="Search Behance..."
+            aria-label="Input group example"
+            aria-describedby="btnGroupAddon"
+          />
+
+          <p class="d-lg-inline-flex gap-1 align-items-center m-0 gap-2 d-none">
+            <a
+              href="#"
+              class="btn btn-sm btn-outline-secondary active rounded-5 border-0"
+              role="button"
+              data-bs-toggle="button"
+              >Projects</a
+            >
+            <a
+              href="#"
+              class="btn btn-sm btn-outline-secondary rounded-5 border-0"
+              role="button"
+              data-bs-toggle="button"
+              >People</a
+            >
+            <a
+              href="#"
+              class="btn btn-sm btn-outline-secondary rounded-5 border-0"
+              role="button"
+              data-bs-toggle="button"
+              >Assets</a
+            >
+            <a
+              href="#"
+              class="btn btn-sm btn-outline-secondary rounded-5 border-0"
+              role="button"
+              data-bs-toggle="button"
+              >Images</a
+            >
+
+            <a href="" class="text-decoration-none">
+              <i class="bi bi-cloud-arrow-up"></i
+            ></a>
+          </p>
+        </div>
+        <div class="btn-group z-3" role="group">
+          <button
+            type="button"
+            class="btn rounded-5 dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-filter"></i>
+            <span class="d-none d-lg-inline-flex">Recommeded</span>
+          </button>
+          <ul class="dropdown-menu z-3">
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- third navbar -->
+
+    <nav
+      class="navbar nav3 bg-light-subtle position-sticky pt-2 z-2"
+      style="top: 108px !important"
+    >
+      <div class="container-fluid">
+        <div
+          class="nav-cards d-flex gap-2 overflow-x-auto w-100 justify-content-start align-items-start"
+        >
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-heart-fill"></i>
+              <h3 class="fs-6 m-0">Following</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 220px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 220px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">Best of Behance</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">Photography</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">Illustration</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 80px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 80px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">UI/UX</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 160px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 160px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">Graphic Design</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 100px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 100px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <h3 class="fs-6 m-0">3d Art</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+          <div
+            class="btnCard position-relative"
+            style="width: 140px; height: 44px"
+          >
+            <div
+              class="position-absolute top-0 start-0 d-flex justify-content-center align-items-center text-white gap-2"
+              style="
+                width: 140px;
+                height: 44px;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <i class="bi bi-star-fill"></i>
+              <h3 class="fs-6 m-0">For You</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- products section  -->
+    <section class="products py-4">
+      <div class="container-fluid">
+        <div class="row g-3">
+          <!-- row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 gap-3 -->
+
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 22.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 25.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 26.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 27.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 28.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 29.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 30.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 31.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 32.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 33.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 34.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 35.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 36.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 25.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 26.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 27.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 28.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 29.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 22.jpeg"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-4 col-xl-3 border-0">
+            <img
+              src="./images/asset 25.png"
+              class="card-img-top w-100 rounded-3"
+              alt="..."
+            />
+            <div class="card-body d-flex p-1 gap-2 justify-content-between">
+              <div>
+                <h3 class="fs-6 fw-bold p-0 m-0">Rafael Altman's Universe</h3>
+                <p style="font-size: 10px">Autobahn Studioopens in a new tab</p>
+              </div>
+
+              <div class="d-flex gap-2">
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-hand-thumbs-up-fill text-secondary"></i>19
+                </p>
+                <p class="fw-bold" style="font-size: 13px">
+                  <i class="bi bi-eye-fill text-secondary"></i>147
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-5 signin d-flex flex-column justify-content-center align-items-center"
+        >
+          <h3 class="fw-bold text-break text-center">
+            Sign in to search the world's largest <br />
+            creative network
+          </h3>
+          <form action="" class="d-flex flex-column gap-2">
+            <button
+              type="button"
+              class="btn btn-outline-secondary py-2 rounded-5 px-5"
+            >
+              <i class="bi bi-google fs-6"></i>
+              Continue with google
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary py-2 rounded-5 px-5"
+            >
+              <i class="bi bi-facebook fs-6"></i>
+              Continue with facebook
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary py-2 rounded-5 px-5"
+            >
+              <i class="bi bi-apple fs-6"></i>
+              Continue with Apple
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- small section -->
+    <section class="smallsec pb-3 overflow-hidden">
+      <img
+        src="https://a5.behance.net/205942b10bf5e15ed0db2f396f440ba2c1e489b8/img/footer/creator-pro-upsell-banner-border.webp"
+        alt=""
+      />
+      <div class="container-fluid">
+        <div
+          class="d-flex flex-wrap justify-content-center row-gap-0 p-2 column-gap-3"
+        >
+          <p class="text-center m-0">
+            <b>Upgrade to Behance Pro today:</b> Get advanced analytics, a
+            custom portfolio website, and more features to grow your creative
+            career.
+          </p>
+          <a href="#">Start your 7 day free trial</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer text-light p-5" style="background-color: #1a1a1a">
+      <div class="container-fluid">
+        <div class="row my-5 pb-5">
+          <h1 class="col-12 col-md-4">B&#275;hance</h1>
+          <div
+            class="footer-cards col-12 col-md-8 d-flex gap-5 justify-content-between flex-wrap"
+          >
+            <div class="card1">
+              <h3 class="fs-5 fw-bold mb-5">Built For Creatives</h3>
+              <ul class="d-flex flex-column gap-2 list-unstyled">
+                <li><a href="#">Try Behance Pro </a></li>
+                <li><a href="#">Find Inspiration</a></li>
+                <li><a href="#">Get Hired </a></li>
+                <li><a href="#">Sell Creative Assets</a></li>
+                <li><a href="#">Sell Freelance Services </a></li>
+              </ul>
+            </div>
+            <div class="card2">
+              <h3 class="fs-5 fw-bold mb-5">Find Talent</h3>
+              <ul class="d-flex flex-column gap-2 list-unstyled">
+                <li><a href="#">Post a Job </a></li>
+                <li><a href="#">Graphic Designers</a></li>
+                <li><a href="#">Photographers </a></li>
+                <li><a href="#">Video Editors </a></li>
+                <li><a href="#">Web Designers </a></li>
+                <li><a href="#">Illustrators </a></li>
+              </ul>
+            </div>
+            <div class="card3">
+              <h3 class="fs-5 fw-bold mb-5">Behance</h3>
+              <ul class="d-flex flex-column gap-2 list-unstyled">
+                <li><a href="#">Post a Job </a></li>
+                <li><a href="#">Graphic Designers</a></li>
+                <li><a href="#">Photographers </a></li>
+                <li><a href="#">Video Editors </a></li>
+                <li><a href="#">Web Designers </a></li>
+                <li><a href="#">Illustrators </a></li>
+                <li><a href="#">Contact Us </a></li>
+                <li><a href="#">Login </a></li>
+              </ul>
+            </div>
+            <div class="card4">
+              <h3 class="fs-5 fw-bold mb-5">Social</h3>
+              <ul class="d-flex flex-column gap-2 list-unstyled">
+                <li>
+                  <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-pinterest"></i> Pinterest</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-linkedin"></i> Linkedln</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex justify-content-between flex-wrap border-top pt-5 border-secondary-subtle"
+        >
+          <div class="d-flex gap-5 flex-wrap">
+            <img
+              src="./images/Adobe-Logo-White-png_Horizontal_Red.png"
+              alt=""
+              class="flex-shrink-0"
+              width="80px"
+              height="20px"
+            />
+
+            <p class="text-break">© 2025 Adobe Inc. All rights reserved.</p>
+          </div>
+
+          <div class="lice d-flex gap-4 flex-wrap">
+            <a href="#"> English </a>
+            <a href="#"> TOU </a>
+            <a href="#"> Privacy </a>
+            <a href="#"> Community </a>
+            <a href="#"> Cookie Preference </a>
+            <a href="#"> Do not sell or share my personal information</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- boostraplink -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
